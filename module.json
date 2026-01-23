@@ -2,26 +2,32 @@
     "id": "brigandyne2e-csb-sheets",
     "title": "Brigandyne 2 - CSB - Feuilles de personnages",
     "description": "Permet d'intégrer au système de jeu Custom System Builder (CSB) les feuilles de PJ et PNJ pour le JDR Brigandyne 2.",
+    "type": "module",
     "version": "1.6.5",
     "authors": [
       {
-        "name": "Nnayl"
+        "name": "Nnayl",
+        "role": "Author"
+      },
+      {
+        "name": "faireunchoixdifficile",
+        "role": "Maintainer",
+        "url": "https://github.com/faireunchoixdifficile-a11y"
       }
     ],
     "compatibility" : {
       "minimum": 12,
-      "verified": "12",
-      "maximum": "12"
+      "verified": "13"
     },
     "relationships": {
       "systems": [
         {
           "id": "custom-system-builder",
           "type": "system",
-          "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json"
-        }
-      ]
-    },
+          "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json",
+          "compatibility": {
+            "minimum": "5.1.0"
+          }}]},
     "packs": [
       {
         "label": "Actors Templates",
@@ -46,7 +52,10 @@
         }
       }
    ],
-   "url": "https://github.com/Nnayl/brigandyne2e-csb-sheets",
-   "manifest": "https://raw.githubusercontent.com/Nnayl/brigandyne2e-csb-sheets/master/module.json",
-   "download": "https://github.com/Nnayl/brigandyne2e-csb-sheets/archive/refs/tags/1.6.5.zip"
+  "styles": [
+    "brigandyne2-sheets.css"
+  ],
+  "url": "https://github.com/faireunchoixdifficile-a11y/brigandyne2e-csb-sheets",
+  "manifest": "https://raw.githubusercontent.com/faireunchoixdifficile-a11y/brigandyne2e-csb-sheets/master/module.json",
+  "download": "https://github.com/faireunchoixdifficile-a11y/brigandyne2e-csb-sheets/archive/refs/heads/master.zip"
   }
