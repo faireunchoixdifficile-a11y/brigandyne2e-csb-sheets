@@ -1,7 +1,7 @@
 # Brigandyne 2 - CSB - Feuilles de Personnages
 
 #note : passage du module de foundryvtt v12 à foundryvtt v13 fait par Nnayl.
-<br />Nouveau manifest.json de module pour le system custom builder :<a href="https://github.com/faireunchoixdifficile-a11y/brigandyne2e-csb-sheets/module.json"</a><br />
+<br />Nouveau manifest.json de module pour le system custom builder : <a href="https://raw.githubusercontent.com/faireunchoixdifficile-a11y/brigandyne2e-csb-sheets/master/module.json">https://raw.githubusercontent.com/faireunchoixdifficile-a11y/brigandyne2e-csb-sheets/master/module.json</a>
 
 <p align="center"><img src="../media/brigandyne-2-foundryvtt.jpg"></p>
 
