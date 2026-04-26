@@ -1,0 +1,7 @@
+2025/02/24-12:34:15.079 6d60 Recovering log #130
+2025/02/24-12:34:15.088 6d60 Delete type=0 #130
+2025/02/24-12:34:15.088 6d60 Delete type=3 #128
+2025/02/24-12:34:26.934 8de4 Level-0 table #135: started
+2025/02/24-12:34:26.935 8de4 Level-0 table #135: 0 bytes OK
+2025/02/24-12:34:26.935 8de4 Delete type=0 #133
+2025/02/24-12:34:26.935 8de4 Manual compaction at level-0 from '!folders!NOxsRXJHIlszjRh6' @ 72057594037927935 : 1 .. '!items!y3EGWsWjxD5awFm7' @ 0 : 0; will stop at (end)
