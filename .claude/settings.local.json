@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(timeout 8 node index.js)",
+      "Bash(echo \"---EXIT:$?\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":3000\")",
+      "Bash(tasklist /FI \"PID eq 35248\")",
+      "Bash(php --version)",
+      "Bash(composer --version)",
+      "Bash(npm --version)",
+      "Bash(mysql -u root -p\"YGz2T5wYNxg9562Gx46R&#YGz2T5wYNxg9562Gx46R#&\" -e \"SHOW DATABASES;\")",
+      "PowerShell(& mysql -u root \"-pYGz2T5wYNxg9562Gx46R&#YGz2T5wYNxg9562Gx46R#&\" -e \"SHOW DATABASES;\" 2>&1)",
+      "Read(//d/Apache/**)",
+      "Read(//d//**)",
+      "Bash(php artisan *)",
+      "Bash(npm run *)",
+      "Bash(php -l app/Services/OllamaService.php)",
+      "Bash(php -l app/PromptBuilders/NpcPromptBuilder.php)",
+      "Bash(php -l app/Http/Controllers/NpcController.php)",
+      "Bash(php -l app/Http/Controllers/HistoryController.php)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\ts2ir\\.claude\\projects\\d--Apache-httpd-2-4-65-250724-Win64-VS17-Apache24\\htdocs-Brigandyne\\memory",
+      "d:\\Apache\\conf\\extra"
+    ]
+  }
+}
